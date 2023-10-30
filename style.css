@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+:root {
+    --bg_main: #F7F7F7;
+    --bg_head: #629F91;
+    --fontTitle: 'Pixelify Sans', sans-serif;
+    --fontText: 'Poppins', sans-serif;
+    --colorHead: #1E3932;
+    --colorHead2: #CEDFDF;
+    --colorHead3: #B1CFC8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    align-items: center;
+    
+}
+
+.navbar a {
+    color: var(--colorHead3);
+    font-family: var(--fontText);
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 88px;
+}
+
+.btn.btn-outline{
+   margin: 0px 10px 10px 0px;
+   font-size: 20px;
+}
+.btn.btn-outline:hover{
+    background-color: #1E3932;
+    color: #CEDFDF;
+}
+
+header.main {
+    width: 100%;
+    height: 100vh;
+    background: var(--bg_head);
+}
+
+.textHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h2#textIndu {
+    font-family: var(--fontText);
+    font-weight: bold;
+    font-size: 160px;
+    color: var(--colorHead);
+}
+h1#textMain {
+    font-family: var(--fontTitle);
+    font-weight: 500;
+    font-size: 7.5rem; /*250px*/
+    color: var(--colorHead2);
+    position: absolute;
+    
+}
+h3#textSub {
+    position: relative;
+    top: -2.5rem;
+    color: var(--colorHead2);
+}
+
+.section {
+    height: 100vh;
+}
+
+section#about {
+    background: blue;
+}
+section#roadmap {
+    background: red;
+}
+
+
+/* SECTION TEAM */
+section#team {
+    background: #353536;
+}
+.titulo_team{
+    text-align: center;
+    justify-content: center;
+    
+}
+.titulo_team p{
+    font-size:100px;
+    color: #629F91;
+    font-family: 'Pixelify Sans', sans-serif;
+    padding: 40px 0px 0px 0px;
+}
+
+.equipo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.info_team{
+   margin: 60px 20px 0px 0px;
+   color: #F7F7F7;;
+   
+}
+.info_team h2{
+    margin-top:  10px;
+    font-family: 'Poppins', sans-serif; 
+ }
+
+.info_team img{
+    width:300px;
+    height:300px;
+    border-radius:150px;
+    border:10px solid #629F91;;
+ }
+
+/* FOOTER */
+#footer{
+    background-color: #F7F7F7;
+    width: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.prueba {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.menu_footer {
+    margin: 100px 10px 0px 0px;
+}
+
+.menu_footer a{
+color: #000000;
+font-size: 20px;
+}
+
+.menu_footer a:hover{
+color:  #629F91;
+transform: scale(1.1);
+}
+
+.redes {
+    height: 20%;
+    width: 20%;
+    padding-left: 6px;
+    
+}
+.redes i{
+    font-size:45px;
+    margin: 35px 0px 0px 10px;
+}
+.redes i:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+    color:  #629F91;
+  }
+
+#logo{
+padding: 80px 0px 0px 0px;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    
+    
+}
